@@ -1,0 +1,43 @@
+<http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment.PlaceEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment.PlaceEquipment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment.PlaceEquipment> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace1> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeObjectProperty1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeObjectProperty1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass2> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeObjectProperty1> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass1> .
+
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass1> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass2> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment1> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment2> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment3> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#Equipment> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#PowerSystemResource> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace2> .
+<http://ontology.adms.ru/UIP/Equipment/2021-1#SomeClass10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.adms.ru/UIP/Equipment/2021-1#TechPlace1> .
